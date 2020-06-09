@@ -12,25 +12,30 @@ namespace Assignment_1
         private int length;
 
         public Rectangle() { }
-        public Rectangle(int width, int length) {
+        public Rectangle(int width, int length)
+        {
             this.width = width;
             this.length = length;
         }
 
         public int GetLength() { return this.length; }
-        public int SetLength(int length) {
+        public int SetLength(int length)
+        {
             this.length = length;
             return this.length;
         }
         public int GetWidth() { return this.width; }
-        public int SetWidth(int width) {
+        public int SetWidth(int width)
+        {
             this.width = width;
             return this.width;
         }
-        public int GetPerimeter() {
+        public int GetPerimeter()
+        {
             return (2 * this.length) + (2 * this.width);
         }
-        public int GetArea() {
+        public int GetArea()
+        {
             return this.length * this.width;
         }
     }
